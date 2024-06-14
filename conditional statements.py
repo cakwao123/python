@@ -22,8 +22,10 @@ else :
 
  # write a program that checks whether a number is even or odd
 
-num = 18
-if num / 2 == 0:
-    print("even")
+num = 0
+if num == 0:
+    print(num,"is neutral")
+if num % 2 == 0:
+    print(num," is even")
 else:
-    print("odd")
+    print(num," is odd")
